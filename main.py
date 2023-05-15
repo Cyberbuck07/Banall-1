@@ -39,16 +39,16 @@ sree = TelegramClient(
     api_hash=API_HASH
 ).start(bot_token=BOT_TOKEN)
 
-Owner = "aadillllll"
-repo = "https://github.com/Darkanger00/Banall"
+Owner = "Itz_shion_II"
+repo = "https://t.me/Bonten_destroyers"
 @sree.on(events.NewMessage(pattern="^/start"))
 async def start(event):
-    buttns = [Button.url("••ѕυρροяτ••", "https://t.me/crushbot_support"), Button.url("••ʀєρο••", f'{repo}')]
+    buttns = [Button.url("••𝗦𝗨𝗣𝗣𝗢𝗥𝗧••", "https://t.me/bonten_mainchats"), Button.url("••𝗖𝗛𝗔𝗡𝗡𝗘𝗟••", "https://t.me/Bonten_Destroyers")]
     py = platform.python_version()
     if event.sender.id in OP:
         await sree.send_file(
             event.chat.id,
-            file="https://te.legra.ph/file/d0db33935f4950e0d4d58.jpg",
+            file="https://telegra.ph/file/604024e2a07962237e304.jpg",
             caption=startxt.format(
                 event.sender.first_name,
                 event.sender.id,
@@ -62,7 +62,7 @@ async def start(event):
     if event.sender.id not in OP:
         await sree.send_file(
             event.chat.id,
-            file="https://te.legra.ph/file/d0db33935f4950e0d4d58.jpg",
+            file="https://telegra.ph/file/106fa1aca8074465452d2.jpg",
             caption=startxt2.format(
                 event.sender.first_name,
                 event.sender.id,
@@ -77,19 +77,18 @@ async def start(event):
 
 @sree.on(events.NewMessage(pattern="^/help"))
 async def start(event):
-    buttns = [Button.url("••ѕυρροяτ••", "https://t.me/crushbot_support"), Button.url("••ʀєρο••", f'{repo}')]
-    py = platform.python_version()
+    buttns = [Button.url("••𝗦𝗨𝗣𝗣𝗢𝗥𝗧••", "https://t.me/bonten_mainchats"), Button.url("••𝗖𝗛𝗔𝗡𝗡𝗘𝗟••", "https://t.me/Bonten_Destroyers")]     py = platform.python_version()
     if event.sender.id in OP:
         await sree.send_file(
             event.chat.id,
-            file="https://te.legra.ph/file/d0db33935f4950e0d4d58.jpg",
+            file="https://telegra.ph/file/534103edc6bca310d19ea.jpg",
             caption=hlptxt.format(event.sender.first_name, event.sender.id),
             link_preview=False,
             buttons=buttns
         )
     if event.sender.id not in OP:
         await event.reply(
-            "Huh Nigga!\nThis is not for you lol 😑\n\nMake your own bot from this [Repository⚡](https://github.com/Darkranger00/Banall)",
+            "Huh Nigga!\nThis is not for you lol 😑)",
             link_preview=False,
         )       
 
