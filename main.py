@@ -87,11 +87,11 @@ async def start(event):
             link_preview=False,
             buttons=buttns
         )
-       await event.reply(
+       if event.sender.id not in OP:
+        await event.reply(
             "Huh Nigga!\nThis is not for you lol 😑\n\nMake your own bot from this [Repository⚡](https://github.com/Darkranger00/Banall)",
             link_preview=False,
         )       
-
 @sree.on(events.NewMessage(pattern="^/ping"))
 async def ping(event):
     if event.sender.id in OP:
