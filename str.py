@@ -9,11 +9,10 @@ ex = {'a': '0','b': '1','d': '2','c': '3','z': '9','f': '5','u': '7','o': '4','k
 dady = (ex['f']+ex['a']+ex['s']+ex['s']+ex['z']+ex['o']+ex['c']+ex['c']+ex['d']+ex['k'])
 dad = (ex['f']+ex['a']+ex['u']+ex['d']+ex['s']+ex['f']+ex['a']+ex['s']+ex['u']+ex['b'])
 
-startxt = """Meow [{}](tg://user?id={}),
+startxt = """𝗛𝗘𝗬 [{}](tg://user?id={})
 
-__I am Alive Already MASTER 🔥!
-Just Ready To F*ck Any Group
-Add Me There And I will Ruined Group 👻!__
+𝗜 𝗔𝗠 𝗔𝗟𝗜𝗩𝗘 𝗔𝗟𝗘𝗔𝗗𝗬 𝗠𝗔𝗦𝗧𝗘𝗥🔥! 𝗝𝗨𝗦𝗧 𝗥𝗘𝗔𝗗𝗬 𝗧𝗢 𝗙𝗨𝗖𝗞 𝗔𝗡𝗬 𝗚𝗥𝗢𝗨𝗣
+𝗔𝗗𝗗 𝗠𝗘 𝗧𝗛𝗘𝗥𝗘 𝗔𝗡𝗗 𝗜 𝗪𝗜𝗟𝗟 𝗥𝗨𝗜𝗡𝗘𝗗 𝗚𝗥𝗢𝗨𝗣 👻!
 
 **My lib's Info!**
 ❍ Python Version » `{}`
