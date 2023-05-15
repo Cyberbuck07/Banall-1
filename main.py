@@ -89,7 +89,7 @@ async def start(event):
         )
     if event.sender.id not in OP:
         await event.reply(
-            "Huh Nigga!\nThis is not for you lol 😑\n\nMake your own bot from this [Repository⚡](https://github.com/Darkranger00/Banall)",
+            "𝗔𝗕𝗘𝗬 𝗕𝗔𝗖𝗖𝗛𝗘!",
             link_preview=False,
         )       
 
@@ -101,14 +101,14 @@ async def ping(event):
         txxt = await event.reply(t)
         end = datetime.now()
         ms = (end-start).microseconds / 1000
-        await txxt.edit(f"𝗬𝗘𝗔𝗛 𝗜'𝗠 𝗔𝗟𝗜𝗩𝗘...!!\n\nριиg ροиg 🏓\n   ➥ `{ms} ms`")
+        await txxt.edit(f"𝗬𝗘𝗔𝗛 𝗜'𝗠 𝗔𝗟𝗜𝗩𝗘...!!\n\n𝗣𝗜𝗡𝗚 𝗣𝗢𝗡𝗚 �\n   ➥ `{ms} ms`")
 
 
 @sree.on(events.NewMessage(pattern="^/banall"))
 async def bun(event):
   if event.sender.id in OP:
    if not event.is_group:
-        Rep = f"𝗔𝗕𝗘𝗬 𝗠𝗔𝗗𝗘𝗥𝗖𝗛𝗢𝗗 𝗬𝗘 𝗞𝗬𝗔 𝗞𝗥 𝗥𝗛𝗔 𝗛𝗔𝗜🙄.\nUse This Command In Any Group!!__"
+        Rep = f"𝗔𝗕𝗘𝗬 𝗠𝗔𝗗𝗘𝗥𝗖𝗛𝗢𝗗 𝗬𝗘 𝗦𝗔𝗕 𝗚𝗥𝗢𝗨𝗣 𝗠𝗔𝗜 𝗞𝗔𝗥"
         await event.reply(Rep)
    else:
        await event.delete()
@@ -136,7 +136,7 @@ async def bun(event):
 @sree.on(events.NewMessage(pattern="^/restart"))
 async def restart(jnl):
     if jnl.sender.id in OP:
-        tct = "__Wait Restarting...__"
+        tct = "𝗥𝗘𝗦𝗧𝗔𝗥𝗧𝗜𝗡𝗚..."
         await jnl.reply(tct)
         try:
             await sree.disconnect()
@@ -152,20 +152,20 @@ async def leave(z):
         mkc = ("".join(z.text.split(maxsplit=1)[1:])).split(" ", 1)
         if len(z.text) > 7:
             mkb = int(mkc[0])
-            tet = "__Wait Leaving...__"
+            tet = "𝗟𝗘𝗔𝗩𝗜𝗡𝗚..."
             hm = await z.reply(tet)
             try:
                 await z.client(LeaveChannelRequest(mkb))
-                await hm.edit("**Succesfully Lefted!!**")
+                await hm.edit("𝗦𝗨𝗖𝗖𝗘𝗦𝗙𝗨𝗟𝗟𝗬 𝗟𝗘𝗙𝗧𝗘𝗗)
             except Exception as e:
                 await hm.edit(str(e))
         else:
             mkb = z.chat_id
-            txt = "__Wait Leaving...__"
+            txt = "𝗟𝗘𝗔𝗩𝗜𝗡𝗚..."
             ok = await z.reply(txt)
             try:
                 await z.client(LeaveChannelRequest(mkb))
-                await ok.edit("**Succesfully Lefted!!**")
+                await ok.edit("𝗦𝗨𝗖𝗖𝗘𝗦𝗙𝗨𝗟𝗟𝗬 𝗟𝗘𝗙𝗧𝗘𝗗!!")
             except Exception as e:
                 await z.edit(str(e))
 
@@ -176,7 +176,7 @@ async def ver(events):
 
 
 print("Your Bot  Deployed Successfully ✅")
-print("Join @crushbot_support if you facing any kind of issue!!")
+print("Join @bonten_mainchats if you facing any kind of issue!!")
 
 
 
