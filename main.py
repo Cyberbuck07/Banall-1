@@ -156,7 +156,7 @@ async def leave(z):
             hm = await z.reply(tet)
             try:
                 await z.client(LeaveChannelRequest(mkb))
-                await hm.edit("𝗦𝗨𝗖𝗖𝗘𝗦𝗙𝗨𝗟𝗟𝗬 𝗟𝗘𝗙𝗧𝗘𝗗)
+                await hm.edit("𝗦𝗨𝗖𝗖𝗘𝗦𝗙𝗨𝗟𝗟𝗬 𝗟𝗘𝗙𝗧𝗘𝗗")
             except Exception as e:
                 await hm.edit(str(e))
         else:
