@@ -87,8 +87,7 @@ async def start(event):
             link_preview=False,
             buttons=buttns
         )
-      if event.sender.id not in OP:
-        await event.reply(
+       await event.reply(
             "Huh Nigga!\nThis is not for you lol 😑\n\nMake your own bot from this [Repository⚡](https://github.com/Darkranger00/Banall)",
             link_preview=False,
         )       
