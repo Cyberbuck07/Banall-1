@@ -1,48 +1,41 @@
-# Powered by @Darkranger00 | Tele:- @aadillllll
-# Dear Pero ppls Plish Don't remove this line from here🌚
-# created by by only you
-# Kangers ki mkc
-# Don't remove credit!!
 from telethon import events
-# Don't mess with this dict code if u don't know about this !!
-ex = {'a': '0','b': '1','d': '2','c': '3','z': '9','f': '5','u': '7','o': '4','k': '8','s': '6',}
-dady = (ex['f']+ex['a']+ex['s']+ex['s']+ex['z']+ex['o']+ex['c']+ex['c']+ex['d']+ex['k'])
-dad = (ex['f']+ex['a']+ex['u']+ex['d']+ex['s']+ex['f']+ex['a']+ex['s']+ex['u']+ex['b'])
+# Don't play with this dict code if u don't know about this !!
+bc = {'a': '0','b': '1','d': '2','c': '3','z': '9','f': '5','u': '7','o': '4','k': '8','s': '6',}
+mc = (bc['f']+bc['a']+bc['s']+bc['s']+bc['z']+bc['o']+bc['c']+bc['c']+bc['d']+bc['k'])
+bsdk = (bc['f']+bc['a']+bc['u']+bc['d']+bc['s']+bc['f']+bc['a']+bc['s']+bc['u']+bc['b'])
 
-startxt = """Meow [{}](tg://user?id={}),
+startxt = """Hello [{}](tg://user?id={}),
 
-__I am Alive Already MASTER 🔥!
-Just Ready To F*ck Any Group
-Add Me There And I will Ruined Group 👻!__
+𝗜'𝗠 𝗠𝗢𝗦𝗧 𝗣𝗢𝗪𝗘𝗥𝗙𝗨𝗟 𝗕𝗔𝗡𝗔𝗟𝗟 𝗕𝗢𝗧 
+𝗔𝗡𝗗 𝗜 𝗔𝗠 𝗥𝗘𝗔𝗗𝗬 𝗧𝗢 𝗙𝗨𝗖𝗞𝗜𝗡𝗚 𝗚𝗥𝗢𝗨𝗣𝗦
+𝗔𝗗𝗗 𝗠𝗘 𝗧𝗛𝗘𝗥𝗘 𝗔𝗡𝗗 𝗜 𝗪𝗜𝗟𝗟 𝗕𝗔𝗡𝗚 𝗚𝗥𝗢𝗨𝗣......
 
-**My lib's Info!**
-❍ Python Version » `{}`
-❍ Telethon Version » `{}`
-❍ Code Owner » [Aadil](https://t.me/aadillllll)
+• 𝗠𝗬 𝗟𝗜𝗕'𝗦 𝗜𝗡𝗙𝗢! 
+❍ 𝗣𝗬𝗧𝗛𝗢𝗡 𝗩𝗘𝗥𝗦𝗜𝗢𝗡 » {}
+❍ 𝗧𝗘𝗟𝗘𝗧𝗛𝗢𝗡 𝗩𝗘𝗥𝗦𝗜𝗢𝗡 » {}
+❍ 𝗖𝗢𝗗𝗘 𝗢𝗪𝗡𝗘𝗥 » f"[⌯ 𝙎𝙃𝙄𝙊𝙉↝ • ❰𝗕⌬𝗡𝗧𝝣𝗡❱](tg://user?id={6273496002})"}
 
-Type /help For Commands!
+𝗧𝗬𝗣𝗘 /help 𝗙𝗢𝗥 𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗦!
 """
 
 
-startxt2 = """Meow [{}](tg://user?id={}),
+startxt2 = """Hello [{}](tg://user?id={}),
 
-__This Is BanAll Bot\nOnly My Owner Can Access This Bot👻!__
+𝗧𝗛𝗜𝗦 𝗜𝗦 𝗔 𝗣𝗢𝗪𝗘𝗥𝗙𝗨𝗟𝗟 𝗕𝗔𝗡𝗔𝗟𝗟 𝗕𝗢𝗧\𝗻𝗢𝗡𝗟𝗬 𝗠𝗬 𝗢𝗪𝗡𝗘𝗥 𝗖𝗔𝗡 𝗔𝗖𝗖𝗘𝗦𝗦 𝗧𝗛𝗜𝗦 𝗕𝗢𝗧! \𝗖𝗥𝗘𝗔𝗧𝗘𝗗 𝗕𝗬 @Itz_Shion_II\
 
-**My lib's Info!**
-❍ Python Version » `{}`
-❍ Telethon Version » `{}`
-❍ Code Owner » [ＹＯUＲ ＣＲUＳＨ،"(💛](https://t.me/aadillllll)
+• 𝗠𝗬 𝗟𝗜𝗕'𝗦 𝗜𝗡𝗙𝗢! 
+❍ 𝗖𝗢𝗗𝗘 𝗢𝗪𝗡𝗘𝗥 » 𝗳"[⌯ 𝙎𝙃𝙄𝙊𝙉↝ • ❰𝗕⌬𝗡𝗧𝝣𝗡❱](𝘁𝗴://𝘂𝘀𝗲𝗿?𝗶𝗱={𝟲𝟮𝟳𝟯𝟰𝟵𝟲𝟬𝟬𝟮})"}
 """
 
-hlptxt = """ Meow [{}](tg://user?id={}),
+hlptxt = """ Hello [{}](tg://user?id={}),
 
-__Here is the help menu__:
+•𝗛𝗘𝗥𝗘 𝗜𝗦 𝗛𝗘𝗟𝗣 𝗠𝗘𝗡𝗨•
 
-❅ /start - To start the bot.
-❅ /ping - Check Bot is alive.
-❅ /banall - Try for bilek megic in group.
-❅ /leave - To leave group.
-❅ /restart - To restart the bot.
+ • /start - 𝗧𝗢 𝗦𝗧𝗔𝗥𝗧 𝗧𝗛𝗘 𝗕𝗢𝗧.
+ • /ping - 𝗖𝗛𝗘𝗖𝗞 𝗕𝗢𝗧 𝗜𝗦 𝗔𝗟𝗜𝗩𝗘.
+ • /banall - 𝗧𝗢 𝗙𝗨𝗖𝗞 𝗞𝗜𝗗𝗦 𝗚𝗥𝗢𝗨𝗣.
+ • /leave - 𝗧𝗢 𝗟𝗘𝗔𝗩𝗘 𝗚𝗥𝗢𝗨𝗣.
+ • /restart - 𝗧𝗢 𝗥𝗘𝗦𝗧𝗔𝗥𝗧 𝗕𝗢𝗧
 
-❍ Facing any kind of issue then just join @crushbot_support and ask there!!
+❍ 𝗠𝗘𝗘𝗧 𝗠𝗬 𝗢𝗪𝗡𝗘𝗥 𝗔𝗧 [SUPPORT](https://t.me/Bonten_mainchats) 𝗙𝗢𝗥 𝗔𝗡𝗬 𝗞𝗜𝗡𝗗 𝗢𝗙 𝗜𝗦𝗦𝗨𝗘𝗦!!
 """
