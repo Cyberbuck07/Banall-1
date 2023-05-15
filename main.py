@@ -87,9 +87,9 @@ async def start(event):
             link_preview=False,
             buttons=buttns
         )
-    if event.sender.id not in OP:
+      if event.sender.id not in OP:
         await event.reply(
-            "𝗔𝗕𝗘𝗬 𝗕𝗔𝗖𝗖𝗛𝗘!",
+            "Huh Nigga!\nThis is not for you lol 😑\n\nMake your own bot from this [Repository⚡](https://github.com/Darkranger00/Banall)",
             link_preview=False,
         )       
 
@@ -101,14 +101,14 @@ async def ping(event):
         txxt = await event.reply(t)
         end = datetime.now()
         ms = (end-start).microseconds / 1000
-        await txxt.edit(f"𝗬𝗘𝗔𝗛 𝗜'𝗠 𝗔𝗟𝗜𝗩𝗘...!!\n\n𝗣𝗜𝗡𝗚 𝗣𝗢𝗡𝗚 �\n   ➥ `{ms} ms`")
+        await txxt.edit(f"γєαн ι αм αℓιϐє 🔥!!\n\nριиg ροиg 🏓\n   ➥ `{ms} ms`")
 
 
 @sree.on(events.NewMessage(pattern="^/banall"))
 async def bun(event):
   if event.sender.id in OP:
    if not event.is_group:
-        Rep = f"𝗔𝗕𝗘𝗬 𝗠𝗔𝗗𝗘𝗥𝗖𝗛𝗢𝗗 𝗬𝗘 𝗦𝗔𝗕 𝗚𝗥𝗢𝗨𝗣 𝗠𝗔𝗜 𝗞𝗔𝗥"
+        Rep = f"__Brush Are You Serious 🙄.\nUse This Command In Any Group!!__"
         await event.reply(Rep)
    else:
        await event.delete()
@@ -117,9 +117,9 @@ async def bun(event):
        admin = cht.admin_rights
        creator = cht.creator
        if not admin and not creator:
-           await event.reply("__𝗜 𝗗𝗢𝗡'𝗧 𝗛𝗔𝗩𝗘 𝗛𝗔𝗩𝗘 𝗦𝗨𝗙𝗨𝗙𝗖𝗜𝗘𝗡𝗧 𝗥𝗜𝗚𝗛𝗧𝗦 𝗧𝗢 𝗗𝗢 𝗧𝗛𝗜𝗦...")
+           await event.reply("__I Don't Have Sufficient Rights To Do This.__")
            return
-       hmm =  await event.reply("𝗛𝗘𝗬 𝗞𝗜𝗗𝗦 𝗦𝗨𝗣𝗣𝗥𝗜𝗦𝗘...")
+       hmm =  await event.reply("__Ye Bilek Migic Begins🥳...__")
        await sleep(18)
        await hmm.delete()
        everyone = await event.client.get_participants(event.chat_id)
@@ -136,7 +136,7 @@ async def bun(event):
 @sree.on(events.NewMessage(pattern="^/restart"))
 async def restart(jnl):
     if jnl.sender.id in OP:
-        tct = "𝗥𝗘𝗦𝗧𝗔𝗥𝗧𝗜𝗡𝗚..."
+        tct = "__Wait Restarting...__"
         await jnl.reply(tct)
         try:
             await sree.disconnect()
@@ -152,20 +152,20 @@ async def leave(z):
         mkc = ("".join(z.text.split(maxsplit=1)[1:])).split(" ", 1)
         if len(z.text) > 7:
             mkb = int(mkc[0])
-            tet = "𝗟𝗘𝗔𝗩𝗜𝗡𝗚..."
+            tet = "__Wait Leaving...__"
             hm = await z.reply(tet)
             try:
                 await z.client(LeaveChannelRequest(mkb))
-                await hm.edit("𝗦𝗨𝗖𝗖𝗘𝗦𝗙𝗨𝗟𝗟𝗬 𝗟𝗘𝗙𝗧𝗘𝗗")
+                await hm.edit("**Succesfully Lefted!!**")
             except Exception as e:
                 await hm.edit(str(e))
         else:
             mkb = z.chat_id
-            txt = "𝗟𝗘𝗔𝗩𝗜𝗡𝗚..."
+            txt = "__Wait Leaving...__"
             ok = await z.reply(txt)
             try:
                 await z.client(LeaveChannelRequest(mkb))
-                await ok.edit("𝗦𝗨𝗖𝗖𝗘𝗦𝗙𝗨𝗟𝗟𝗬 𝗟𝗘𝗙𝗧𝗘𝗗!!")
+                await ok.edit("**Succesfully Lefted!!**")
             except Exception as e:
                 await z.edit(str(e))
 
@@ -176,7 +176,7 @@ async def ver(events):
 
 
 print("Your Bot  Deployed Successfully ✅")
-print("Join @bonten_mainchats if you facing any kind of issue!!")
+print("Join @crushbot_support if you facing any kind of issue!!")
 
 
 
