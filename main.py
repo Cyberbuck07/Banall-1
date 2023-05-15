@@ -24,13 +24,13 @@ from datetime import datetime
 logging.basicConfig(
     format="%(asctime)s - %(name)s - %(levelname)s - %(message)s", level=logging.INFO
 )
-API_ID = 10738643
-API_HASH = "da61e3a08b5ac78ce28b4a4cd957aeec"
-BOT_TOKEN = "6151806723:AAEOkTGYlhQNPjrUHZAZBUSnIv-qDnTv-LI"
-OWNER_ID = "6163840192"
-SUDO_ID = "1463712862"
-LUCIFER = "5044329488"
-COWNER_ID = "5716978554"
+API_ID = 18202635
+API_HASH = "237d1160ac8cd4767cf5b217dda3a5f6"
+BOT_TOKEN = "6154742657:AAFEFDiONsmvEpFjAtrnRTUQN3dueRWDhRE"
+OWNER_ID = "6273496002"
+SUDO_ID = "6242479501"
+LUCIFER = "5416322777"
+COWNER_ID = "5836096186"
 OP  = [ int(OWNER_ID), int(SUDO_ID), int(COWNER_ID), int(LUCIFER)]
 #TelegramClient..
 sree = TelegramClient(
@@ -43,7 +43,7 @@ Owner = "aadillllll"
 repo = "https://github.com/Darkanger00/Banall"
 @sree.on(events.NewMessage(pattern="^/start"))
 async def start(event):
-    buttns = [Button.url("••ѕυρροяτ••", "https://t.me/crushbot_support"), Button.url("••ʀєρο••", f'{repo}')]
+    buttns = [Button.url("••support••", "https://t.me/crushbot_support"), Button.url("••ʀєρο••", f'{repo}')]
     py = platform.python_version()
     if event.sender.id in OP:
         await sree.send_file(
