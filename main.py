@@ -39,11 +39,11 @@ sree = TelegramClient(
     api_hash=API_HASH
 ).start(bot_token=BOT_TOKEN)
 
-Owner = "Itz_shion_II"
-channel = "https://t.me/Bonten_Destroyers"
+Owner = "aadillllll"
+repo = "https://github.com/Darkanger00/Banall"
 @sree.on(events.NewMessage(pattern="^/start"))
 async def start(event):
-    buttns = [Button.url("••𝗦𝗨𝗣𝗣𝗢𝗥𝗧••", "https://t.me/bonten_mainchats"), Button.url("••𝗖𝗛𝗔𝗡𝗡𝗘𝗟••", "https://t.me/Bonten_Destroyers")]
+    buttns = [Button.url("••ѕυρροяτ••", "https://t.me/crushbot_support"), Button.url("••ʀєρο••", f'{repo}')]
     py = platform.python_version()
     if event.sender.id in OP:
         await sree.send_file(
@@ -77,7 +77,7 @@ async def start(event):
 
 @sree.on(events.NewMessage(pattern="^/help"))
 async def start(event):
-    buttns = [Button.url("••𝗦𝗨𝗣𝗣𝗢𝗥𝗧••", "https://t.me/bonten_mainchats"), Button.url("••𝗖𝗛𝗔𝗡𝗡𝗘𝗟••", "https://t.me/Bonten_Destroyers")]
+    buttns = [Button.url("••ѕυρροяτ••", "https://t.me/crushbot_support"), Button.url("••ʀєρο••", f'{repo}')]
     py = platform.python_version()
     if event.sender.id in OP:
         await sree.send_file(
@@ -87,11 +87,12 @@ async def start(event):
             link_preview=False,
             buttons=buttns
         )
-       if event.sender.id not in OP:
+    if event.sender.id not in OP:
         await event.reply(
             "Huh Nigga!\nThis is not for you lol 😑\n\nMake your own bot from this [Repository⚡](https://github.com/Darkranger00/Banall)",
             link_preview=False,
         )       
+
 @sree.on(events.NewMessage(pattern="^/ping"))
 async def ping(event):
     if event.sender.id in OP:
