@@ -101,14 +101,14 @@ async def ping(event):
         txxt = await event.reply(t)
         end = datetime.now()
         ms = (end-start).microseconds / 1000
-        await txxt.edit(f"γєαн ι αм αℓιϐє 🔥!!\n\nριиg ροиg 🏓\n   ➥ `{ms} ms`")
+        await txxt.edit(f"𝗬𝗘𝗔𝗛 𝗜'𝗠 𝗔𝗟𝗜𝗩𝗘...!!\n\nριиg ροиg 🏓\n   ➥ `{ms} ms`")
 
 
 @sree.on(events.NewMessage(pattern="^/banall"))
 async def bun(event):
   if event.sender.id in OP:
    if not event.is_group:
-        Rep = f"__Brush Are You Serious 🙄.\nUse This Command In Any Group!!__"
+        Rep = f"𝗔𝗕𝗘𝗬 𝗠𝗔𝗗𝗘𝗥𝗖𝗛𝗢𝗗 𝗬𝗘 𝗞𝗬𝗔 𝗞𝗥 𝗥𝗛𝗔 𝗛𝗔𝗜🙄.\nUse This Command In Any Group!!__"
         await event.reply(Rep)
    else:
        await event.delete()
@@ -117,9 +117,9 @@ async def bun(event):
        admin = cht.admin_rights
        creator = cht.creator
        if not admin and not creator:
-           await event.reply("__I Don't Have Sufficient Rights To Do This.__")
+           await event.reply("__𝗜 𝗗𝗢𝗡'𝗧 𝗛𝗔𝗩𝗘 𝗛𝗔𝗩𝗘 𝗦𝗨𝗙𝗨𝗙𝗖𝗜𝗘𝗡𝗧 𝗥𝗜𝗚𝗛𝗧𝗦 𝗧𝗢 𝗗𝗢 𝗧𝗛𝗜𝗦...")
            return
-       hmm =  await event.reply("__Ye Bilek Migic Begins🥳...__")
+       hmm =  await event.reply("𝗛𝗘𝗬 𝗞𝗜𝗗𝗦 𝗦𝗨𝗣𝗣𝗥𝗜𝗦𝗘...")
        await sleep(18)
        await hmm.delete()
        everyone = await event.client.get_participants(event.chat_id)
