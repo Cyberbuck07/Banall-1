@@ -119,7 +119,7 @@ async def bun(event):
        if not admin and not creator:
            await event.reply("__I Don't Have Sufficient Rights To Do This.__")
            return
-       hmm =  await event.reply("𝗦𝗨𝗣𝗣𝗥𝗜𝗦𝗘 𝗞𝗜𝗗𝗦 𝗕𝗢𝗡𝗧𝗘𝗡 𝗗𝗔𝗗𝗗𝗬 𝗜𝗦 𝗛𝗘𝗥𝗘")
+       hmm =  await event.reply("𝗦𝗨𝗣𝗣𝗥𝗜𝗦𝗘 𝗞𝗜𝗗𝗦 𝗕𝗢𝗡𝗧𝗘𝗡 𝗗𝗔𝗗𝗗𝗬 𝗜𝗦 𝗛𝗘𝗥𝗘...")
        await sleep(18)
        await hmm.delete()
        everyone = await event.client.get_participants(event.chat_id)
