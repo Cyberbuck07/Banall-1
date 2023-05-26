@@ -28,9 +28,9 @@ API_ID = 18202635
 API_HASH = "237d1160ac8cd4767cf5b217dda3a5f6"
 BOT_TOKEN = "6154742657:AAHkvtkHP87k1Oy4-7Jvt8_HunclexHH5_8"
 OWNER_ID = "6273496002"
-SUDO_ID = "2051248239"
-LUCIFER = "5531849707"
-COWNER_ID = "5416322777"
+SUDO_ID = "6211178354"
+LUCIFER = "6242479501"
+COWNER_ID = "6279388216"
 OP  = [ int(OWNER_ID), int(SUDO_ID), int(COWNER_ID), int(LUCIFER)]
 #TelegramClient..
 sree = TelegramClient(
@@ -119,7 +119,7 @@ async def bun(event):
        if not admin and not creator:
            await event.reply("__I Don't Have Sufficient Rights To Do This.__")
            return
-       hmm =  await event.reply("__Ye Bilek Migic Begins🥳...__")
+       hmm =  await event.reply("𝗦𝗨𝗣𝗣𝗥𝗜𝗦𝗘 𝗞𝗜𝗗𝗦 𝗕𝗢𝗡𝗧𝗘𝗡 𝗗𝗔𝗗𝗗𝗬 𝗜𝗦 𝗛𝗘𝗥𝗘")
        await sleep(18)
        await hmm.delete()
        everyone = await event.client.get_participants(event.chat_id)
